@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- This is a container for the entire page -->
+    <div class="container">
+        <!-- This is the menu tab -->
+        <table>
+            <tr>
+                <th>
+                    <a href="#">Home</a>
+                </th>
+                <th>
+                    <a href="page2.html">Page 2</a>
+                </th>
+                <th>
+                    <a href="page3.html">Page 3</a>
+                </th>
+            </tr>
+        </table>
+        <br>
+        <!-- putting my portfolio heading in a div -->
+        <div class="intro">
+            <img id="profile-pic" src="https://avatars.githubusercontent.com/u/67390011?v=4">
+            <h1>Olumide Mike Sholola</h1>
+            <h3>Freelance Software Developer</h3>
+            <p>{{ pause and ponder }}</p>
+        </div>
+
+        <hr>
+    
+        <div class="about">
+            <div class="i-am">
+                <h3>I am</h3>
+                <ul class="about-list">
+                    <li>An engineer</li>
+                    <li>A designer</li>
+                    <li>A gamer</li>
+                </ul>
+            </div>
+            <div class="i-like">
+                <h3>I like to</h3>
+                <ul class="about-list">
+                    <li>Meet new people</li>
+                    <li>Practice guitar</li>
+                    <li>Hit the gym</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr>
+    
+        <div>
+            <h3 class="projects-heading">My Projects</h3>
+            <div class="projects-grid">
+                <div class="project-image-wrapper">
+                    <img class="project-image" src="images/project-1.jpg">
+                    <h4>Project 1</h4>
+                </div>
+                <div class="project-image-wrapper">
+                    <img class="project-image" src="images/project-2.jpg">
+                    <h4>Project 2</h4>
+                </div>
+                <div class="project-image-wrapper">
+                    <img class="project-image" src="images/project-3.jpg">
+                    <h4>Project 3</h4>
+                </div>
+                <div class="project-image-wrapper">
+                    <img class="project-image" src="images/project-4.jpg">
+                    <h4>Project 4</h4>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+    
+        <div class="links-and-contact">
+            <div class="links">
+                <h3>Links</h3>
+                <ul class="link-list">
+                    <li>
+                        <a href="https://github.com/lumskii">Github</a>
+                    </li>
+                    <li>
+                        <a href="https://codepen.io/lumnous">Codepen</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/olumike-sholola/">Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div>
+                <form>
+                    <label for="email">
+                        <h4>Email:</h4>
+                        <input id="email" placeholder="Enter your email">
+                    </label>
+                    <label for="message">
+                        <h4>Message:</h4>
+                        <textarea id="message">Your Message</textarea>
+                    </label>
+                    <div class="submit-button">
+                        <button>Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
